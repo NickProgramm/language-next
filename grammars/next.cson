@@ -1,0 +1,22 @@
+# If this is your first time writing a language grammar, check out:
+#   - https://flight-manual.atom.io/hacking-atom/sections/creating-a-grammar/
+
+'scopeName': 'source.next'
+'name': 'Next'
+'fileTypes': [
+  'next'
+]
+'patterns': [
+  {
+    'match': '^\\s*#.*$'
+    'name': 'comment'
+  },
+  {
+    'match': '\\b(input|if|else|fun|while|do|eval|define|print|array|length|element|set|readFile|writeFile|appendFile|deleteFile)\\b'
+    'name': 'keyword.control.next'
+  },
+  {
+    'match': '\\b(true|false)\\b'
+    'name': 'constant.language.next'
+  }
+]

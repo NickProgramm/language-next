@@ -1,0 +1,16 @@
+# If you want some example snippets, check out:
+# https://github.com/atom/language-javascript/blob/master/snippets/javascript.cson
+
+'.source.next':
+  'Method documentation':
+    'prefix': 'doc'
+    'body': '# ${1:method} - ${2:description}'
+  'Main method':
+    'prefix': 'do'
+    'body': 'do()'
+  'Define a variable':
+    'prefix': 'def'
+    'body': 'define(${1:name}, ${2:value})'
+  'Eval JavaScript code':
+    'prefix': 'ev'
+    'body': 'eval(${1:code})'
