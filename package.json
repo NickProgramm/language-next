@@ -1,7 +1,7 @@
 {
   "name": "language-next",
   "version": "0.1.0",
-  "description": "A short description of your language package",
+  "description": "Next language support for Atom",
   "keywords": [
     "language",
     "grammar"
